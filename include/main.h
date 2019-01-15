@@ -75,6 +75,9 @@ void opcontrol(void);
 /**
  * You can add C++-only headers here
  */
+ #include "logger.h"
+ #include "AutonBuilder.h"
+
 //#include <iostream>
 #endif
 
