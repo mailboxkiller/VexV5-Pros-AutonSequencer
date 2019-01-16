@@ -1,11 +1,8 @@
 #include "AutonBuilder.h"
 #include "logger.h"
 
-Logger logger;
+static Logger logger;
 
-void AutonBuilder::ScreenInit(){
-  
-}
 
 void AutonBuilder::AddMotor(MotorGroups group, pros::Motor motor){
   m_Motors.push_back({group, motor});
